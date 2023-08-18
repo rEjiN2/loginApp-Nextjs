@@ -21,7 +21,7 @@ const Page = () => {
           type="submit"
           variant="contained"
           color="warning"
-          style={{marginTop:"-3rem"}}
+          style={{marginTop:"-3rem" ,borderRadius:20}}
           className={styles.continueButton}
           onClick={() => router.push('/login')}
         >
